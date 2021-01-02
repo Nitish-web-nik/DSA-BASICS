@@ -1,0 +1,93 @@
+1. The time complexity of a single instruction is O(1)
+Example:-int a = b + c;
+
+2. The time complexity of a function is O(1) if it contains only simple
+instructions without any loops,recursion and it does not call to any function
+whose time complexity is not constant.
+Example: // returns the minimum of two numbers
+public static int minimum_of(int number1, int number2) {
+    int minimum;
+    if (number1 > number2)
+        minimum = number2;
+    else
+        minimum = number1;
+
+    return minimum;
+}
+
+3. If there is a loop which iterates some constant number of times,
+then the time complexity of that loop is O(1).
+
+    Example://c here is some constant
+for (int i = 0; i < c; i++) {
+}
+
+4. The loop given below has time complexity O(n) since the loop variable is
+incremented by constant amounts from 1 to n or decremented by constant amounts
+from n to 1, i.e., the innermost instructions get executed n times.
+
+     Example://incremented
+for (int i = 1; i <= n; i += 1) {
+}
+
+//decremented
+for (int i = 1; i <= n; i -= 1) {
+    //Some instructions with time complexity O(1)
+}
+
+5. The time complexity of the below loop is O (n^2)
+
+     Example 1:
+for (int i = 1; i <= n; i += 1) {
+    for (int j = 1; j <= n; j += 1) {
+        //Some instructions with time complexity O(1)
+    }
+}
+    Example 2:
+
+for (int i = n; i > 0; i -= 1) {
+    for (int j = i + 1; j <= n; j += 1) {
+        //Some instructions with time complexity O(1)
+    }
+}
+
+6. The time complexity of the below loops is O(logn)
+
+     Example 1:
+for (int i = 1; i <= n; i *= 2) {
+    //Some instructions with time complexity O(1)
+}
+    Example 2:
+
+for (int i = n; i > 0; i /= 2) {
+    //Some instructions with time complexity O(1)
+}
+     Similarly as above
+
+
+
+7. The time complexity of the below loop is O(loglog(n))
+    Example 1:
+
+// pow(i, c) is a function which calculates i^c, c>0
+for (int i = 2; i <= n; i = pow(i, c)) {
+    //Some instructions with time complexity O(1)
+}
+    Example 2:
+
+//sqrt can be replaced by any other constant root
+for (int i = n; i > 0; i = sqrt(i)) {
+    //Some instructions with time complexity O(1)
+}
+    Similarly as above.
+
+8. The time complexity of the below function is O(n!)
+
+     Example:
+
+void timenfact ( int n){
+    for (int i = 0; i < n; i++) {
+        timenfact(n - 1);
+    }
+}
+
