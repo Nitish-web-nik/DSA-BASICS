@@ -91,3 +91,24 @@ void timenfact ( int n){
     }
 }
 
+Q1) The Big O of the following function?
+
+public void function(int n){
+   for(int i = 0 ;i < n; i++){
+      int j = 0;
+      while(j < n){
+            j++;
+      }
+   }
+}
+Answer:- O(n^2)
+Q2) What is the Big O of the following function? Hint: Look out for the iterations of the loops.
+
+public void function(int n) {
+   for(int i = 0; i < n*n; i++){
+       for(int j = 0; j < n; j++){
+           System.out.println("Hello");
+       }
+   }
+}
+Answer:- O(n^3)
