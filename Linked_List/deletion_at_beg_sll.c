@@ -34,7 +34,7 @@ void main()
         printf("%d ", temp->data);
         temp = temp->next;
     }
-    printf("\nAfter Deletion of First element the Linked list is:- ");
+    printf("\nAfter Deletion of First element the Linked list will be :- ");
     ll = head;
     head = head->next;
     temp = head;
