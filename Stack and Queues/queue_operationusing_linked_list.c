@@ -22,7 +22,7 @@ int count = 0;
  
 void main()
 {
-    int no, ch, e;
+    int  no, ch, e;
  
     printf("\n 1 - Enque");
     printf("\n 2 - Deque");
