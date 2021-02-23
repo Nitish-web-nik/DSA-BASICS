@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class MergeSort {
+public class MergeSort{
 
     public static int[] sort(int[] randomNumbers) {
         return mergeSort(randomNumbers, 0, randomNumbers.length - 1);
