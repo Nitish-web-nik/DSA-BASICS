@@ -1,6 +1,6 @@
 /*QUEUE OPERATIONS USING ARRAY*/
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 #define MAX 5
 int front = -1, rear = -1;
 int queue[MAX];
