@@ -1,7 +1,7 @@
  /* C Program to Implement a Stack using Linked List*/
  
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
  
 struct node
 {
