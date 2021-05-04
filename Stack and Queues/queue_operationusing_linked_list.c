@@ -1,5 +1,5 @@
 /*
- * C Program to Implement Queue Data Structure using Linked List
+  C Program to Implement Queue Data Structure using Linked List
  */
 #include<stdio.h>
 #include<stdlib.h>
