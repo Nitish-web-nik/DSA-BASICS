@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Sequence2 {
     public void fibonacci(int n) {
