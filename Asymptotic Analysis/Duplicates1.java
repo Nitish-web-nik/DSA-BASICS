@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 import java.util.concurrent.ThreadLocalRandom;
 
 //function which prints  all the duplicate id's
