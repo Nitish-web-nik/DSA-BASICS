@@ -1,4 +1,5 @@
 1. The time complexity of a single instruction is O(1)
+
 Example:-int a = b + c;
 
 2. The time complexity of a function is O(1) if it contains only simple
