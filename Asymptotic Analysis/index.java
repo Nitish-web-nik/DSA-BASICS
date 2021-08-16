@@ -48,4 +48,5 @@ public class Duplicates1 {
         }
         System.out.println();
     }
+
 }
